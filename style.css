@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 100px;
+    width: 100%;
+}
+nav{
+    padding: 0px 200px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px #E7E6E9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 15px;
+}
+nav h3 span{
+    color: #FF42A5;
+}
+.btn-icon{
+    padding: 7px 12px;
+    border: none;
+    cursor: pointer;
+    background-color: #E7E6E9;
+    border-radius: 5px;
+}
+.btn-icon i{
+    color: red;
+}
+.logo-image{
+    display: flex;
+    align-items: center;
+}
+.logo-image img{
+    width: 70px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-left{
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    background-image: url("banner-left.png");
+    padding-top: 150px;
+}
+.banner-right img{
+    width: 90%;
+    height: 500px;
+}
+.banner-right{
+    width: 50%;
+}
+.banner h1{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 38px;
+}
+.banner span{
+    color: #D04EC8;
+    font-family: Work Sans;
+    font-size: 60px;
+    font-weight: 1000;  
+}
+.banner p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 215px;
+}
+.btn-style{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.btn-left{
+    border-radius: 48px;
+    padding: 15px 30px;
+    color: #FFF;
+    background-color: #FF42A5;
+    border: none;
+    margin-top: 20px;
+}
+.btn-right{
+    border-radius: 48px;
+    padding: 21px 40px;
+    color: #FFF;
+    background-color: #4EC5F7;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+}
+.online-img-header{
+    text-align: center;
+}
+.online-img-header span{
+    color: #D04EC8;
+}
+.online-img-header p{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.online-games{
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.online-games-img img{
+    height: 250px;
+    width: 220px;
+}
+.online-games-img p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 18px;
+}
+.play-games-online{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+}
+.play-games-left img{
+    height: 310px;
+    /* width: 420px; */
+    margin-left: 240px;
+}
+.play-games-right{
+    font-size: 16px;
+    margin-right: 220px;
+    margin-top: 54px;
+}
+.play-games-right p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 11.5px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.play-games-double{
+    position: relative;
+    left: 262px;
+    bottom: 114px;
+    height: 80%;
+    /* width: 150%; */
+}
+.play-games-double img{
+    /* height: 80px;
+    width: 150px; */
+}
+.play-games-right span{
+    color: #D04EC8;
+}
+/* fotter sectoin  start */
+.footer-section{
+    text-align: center;
+    background: #0B0223;
+}
+.footer-section ul{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    list-style: none;
+    text-decoration: none;
+}
+.footer-section ul a{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 50px;
+}
+.footer-section .privacy-policy{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.footer-section ul i{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 30px;
+}
+.logo-image{
+    text-align: center;
+    /* margin-left: 610px; */
+    /* padding-top: 70px;
+    padding-bottom: 20px; */
+    color: #0B0223;
+}
+.logo-image-footer{
+    text-align: center;
+    margin-left: 610px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    color: #fff;
+    display: flex;
+}
+.logo-image img{
+    text-align: center;
+    color: #0B0223;
+}
+.logo-image h3{
+    text-align: center;
+    color: #0B0223;
+}
+.footer-section p{
+    color: #807C8D;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+/* fotter sectoin  end*/
+
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
+}
