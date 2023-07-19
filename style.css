@@ -142,7 +142,6 @@ nav h3 span{
 }
 .play-games-left img{
     height: 310px;
-    /* width: 420px; */
     margin-left: 240px;
 }
 .play-games-right{
@@ -171,7 +170,7 @@ nav h3 span{
 .play-games-right span{
     color: #D04EC8;
 }
-/* fotter sectoin  start */
+/* footer sectoin  start */
 .footer-section{
     text-align: center;
     background: #0B0223;
@@ -237,10 +236,4 @@ nav h3 span{
     padding-bottom: 50px;
     margin-top: 20px;
 }
-/* fotter sectoin  end*/
-
-@media screen and (max-width: 576px) {
-    nav{
-        flex-direction: column;
-    }
-}
+/* footer sectoin  end*/
